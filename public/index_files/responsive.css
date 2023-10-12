@@ -1,0 +1,254 @@
+@media screen and (max-width:1200px) {
+	.home .brands .brand .brand_overlay .links li {
+		width: 45%;
+		margin: 0.25em;
+	}
+}
+@media screen and (max-width:1024px) {
+	footer .top {
+		padding: 2em 0;
+	}
+	footer .one-third,
+	footer .one-third.column-last,
+	footer .one-third.column-last .two-third,
+	footer .one-third.column-last .one-third.column-last,
+	footer .one-third.column-last,
+	footer .two-third.column-last,
+	footer .bottom ul.social,
+	footer .bottom ul,
+	footer .top .company p {
+		width: 100%;
+		margin-right: 0;
+	}
+	footer .top .company img {
+		width: 100%;
+		max-width: 15em;
+		margin: 0 auto 1em auto !important;
+	}
+	footer .one-third.column-last .two-third {
+		margin-top: 1em;
+	}
+	footer .bottom {
+		text-align: center;
+	}
+	footer .bottom ul li {
+		margin: 0 0.5em !important;		
+	}
+	footer .bottom ul.social {
+		margin-left: 0;
+	}
+	footer .bottom ul.social li {
+		margin: 0.5em !important;
+	}
+	footer .top .column-last img {
+		max-width: 10em;
+	}
+	.home .brands .brand {
+		width: 50%;
+		height: 20em;
+	}
+	.home .brands .brand:last-child {
+		width: 100%;
+	}
+	.home .brands .brand:nth-child(odd) {
+		border-left: 0;
+	}
+	.home .brands .brand:nth-child(even) {
+		border-left: 1px solid #fff;
+	}
+}
+@media screen and (max-width:1023px) {
+	footer .bottom p,
+	footer .bottom ul,
+	.home .brands .brand .brand_inner .brand_bottom .subtitle {
+		font-size: 0.7em;
+	}
+	.row.testimonials_block ul.testimonials,
+	.row .support li {
+		width: 100%;
+	}
+	.row .support li {
+		padding-bottom: 2em;
+	}
+	.row .support li:last-child {
+		padding-bottom: 0;
+	}
+}
+@media screen and (max-width:767px) {
+	header .site-branding {
+		width: 80%;
+		margin-right: 0;
+	}
+	header .site-branding a {
+		max-width: 14em;
+	}
+	header .menus {
+		float: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+	}
+	header .cd-primary-nav-trigger {
+		top: 1.75em;
+		right: 1em;
+	}
+	header .cd-primary-nav {
+		top: 6em;
+		width: 100%;
+		min-width: 0;
+	}
+	header .cd-primary-nav .menu li a,
+	header .cd-primary-nav .menu li ul.sub-menu li a {
+		font-size: 1em;
+	}
+	header .menus #top-menu {
+		display: none;
+	}
+	header .cd-primary-nav .mobile,
+	header .menus .cd-primary-nav .mobile #top-menu {
+		display: block;
+	}
+	header .menus .cd-primary-nav .mobile #top-menu,
+	header .menus .cd-primary-nav .mobile #top-menu li {
+		width: 100%;
+		margin: 0;
+	}
+	header .menus .cd-primary-nav .mobile #top-menu li {
+		margin-bottom: 0.5em;
+	}
+	header .menus .cd-primary-nav .mobile #top-menu li a {
+		font-size: 1em;
+		padding: 1em;
+	}	
+	.row,
+	.home .news {
+		padding: 2em 0;
+	}
+	.row .one-third,
+	.row .two-third,
+	.home .posts li {
+		width: 100%;
+		margin-right: 0;
+	}
+	.banner {
+		height: 20em;
+	}
+	.row .one-third {
+		margin-bottom: 1em;		
+	}
+	.row .one-third img {
+		max-width: 20em;
+	}
+	.row ul.split li {
+		width: 100%;
+		margin-right: 0;
+	}
+	.row.testimonials_block {
+		padding-bottom: 4em;
+	}
+	.row.testimonials_block ul.testimonials {
+		font-size: 1.25em;
+	}
+	.home .brands .brand {
+		width: 100%;
+		height: 15em;
+		border-left: 0 !important;
+	}
+	.home .posts li {
+		margin-bottom: 2em;
+	}
+	.home .posts li:last-child {
+		margin-bottom: 0;
+	}
+	#locations .locations_block .one-third {
+		width: 100%;
+		margin: 0;
+	}
+	.single-post .row .one-third,
+	.single-event .row .one-third {
+		margin-bottom: 2em;		
+	}
+	.single-post .share_wrap {
+		margin-top: 2em;
+	}
+	#main .gform_wrapper .donate .donation_amount ul.gfield_radio li label .desc {
+		width: 60%;
+		left: 35%;
+		font-size: 1em;
+	}
+	#main .gform_wrapper .donate .regular_donation ul.gfield_checkbox li label .value {
+		font-size: 1.75em;
+		line-height: 2;
+	}
+	#main .gform_wrapper ul.gform_fields:not(.top_label) .gfield_label,
+	#main .gform_wrapper ul.gform_fields:not(.top_label) .clear-multi, 
+	#main .gform_wrapper ul.gform_fields:not(.top_label) .gfield_description, 
+	#main .gform_wrapper ul.gform_fields:not(.top_label) .ginput_container_date,
+	#main .gform_wrapper ul.gform_fields:not(.top_label) .ginput_container:not(.ginput_container_time):not(.ginput_container_date),
+	#main .gform_wrapper .gform_footer:not(.top_label) {
+		width: 100%;
+	}
+	#main .gform_wrapper ul.gform_fields:not(.top_label) .gfield_label,
+	#main input[type="submit"] {
+		margin-right: 0;
+	}
+	#main .gform_wrapper .gform_footer:not(.top_label) {
+		margin-left: 0;
+	}
+	ul.tabs li {
+		width: 30%;
+	}
+	.tab-content {
+		padding: 0.5em 1em 1em 1em;
+	}
+}
+@media screen and (max-width:479px) {
+	html,
+	body {
+		min-width: 320px;
+	}
+	.banner {
+		height: 15em;
+	}
+	.row .one-third img {
+		max-width: 100%;
+	}
+	.home .brands .brand .brand_inner .brand_bottom img {
+		display: none;
+	}
+	.supporter .one-fourth,
+	.supporter .three-fourth {
+		width: 100%;
+	}
+	#main .gform_wrapper .donate {
+		padding: 0;
+	}
+	#main .gform_wrapper .donate .donation_amount ul.gfield_radio li label .desc {
+		position: relative;
+		float: left;
+		top: 0;
+		left: 0;
+    	transform: translate(0, 0);	
+		width: 100%;
+		padding-left: 2.5em;
+	}
+	#main .gform_wrapper .donate .regular_donation ul.gfield_checkbox li label .value {
+		font-size: 1.15em;
+		line-height: 3.25em;
+	}
+	ul.tabs li {
+		font-size: 1em;
+		padding: 0.5em;
+	}
+}
+@media (any-hover: none) {
+	a::after {
+		display: none !important;
+	}	
+}
+@media (any-hover: on-demand) {
+	a::after {
+		display: none !important;
+	}	
+}
