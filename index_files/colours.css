@@ -1,0 +1,467 @@
+/* Black */
+footer a::after {
+	background-color: #000;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus,
+.cd-primary-nav .menu li a,
+footer a,
+footer a:hover,
+#main .gfield_checkbox label,
+#main .gform_confirmation_wrapper,
+#main .validation_message,
+.home .brands .brand .brand_inner .brand_bottom,
+.home .posts li h3 {
+	color: #000;
+}
+
+/* Blue */
+header .menus #top-menu li.blue a,
+.accordion_head,
+.home .brands .brand.listeningear .brand_overlay .links li a.blue,
+#main .gform_wrapper .donate h4 {
+	background-color: #1BB4EE;
+}
+
+header .menus #top-menu li.blue a,
+.home .brands .brand.listeningear .brand_overlay .links li a.blue {
+	border-color: #1BB4EE;
+}
+
+h3,
+h4,
+header .menus #top-menu li.blue a:hover,
+.home .brands .brand.listeningear .brand_overlay .links li a.blue:hover {
+	color: #1BB4EE;
+}
+
+/* Light blue */
+.cd-primary-nav-trigger:hover .cd-menu-icon,
+.cd-primary-nav-trigger:hover .cd-menu-icon::before,
+.cd-primary-nav-trigger:hover .cd-menu-icon:after,
+.home .brands .brand.lightblue .brand_inner .brand_bottom,
+.home .brands .brand.lightblue .brand_overlay .links li a,
+.butterflies .row a:not(.button)::after,
+.butterflies .button {
+	background-color: #76CAF1;
+}
+
+.butterflies .row.brand_colour {
+	background-color: rgba(118,202,241,0.2);
+}
+
+.home .brands .brand.lightblue .brand_overlay .links li a,
+.butterflies .button {
+	border-color: #76CAF1;
+}
+
+.home .brands .brand.lightblue .brand_inner .brand_bottom,
+.home .brands .brand.lightblue .brand_overlay .links li a,
+.butterflies .row a:not(.button)::after,
+.butterflies .button {
+	color: #000;
+}
+
+.home .brands .brand.lightblue .brand_overlay .links li a:hover,
+.cd-primary-nav .menu li.current-menu-ancestor ul.sub-menu li a,
+.cd-primary-nav .menu li.current-menu-parent ul.sub-menu li a,
+.butterflies h1,
+.butterflies h2,
+.butterflies h3,
+.butterflies h4,
+.butterflies .row a:not(.button),
+.butterflies .row a:not(.button):hover,
+.butterflies .row b,
+.butterflies .row strong,
+.butterflies .button:hover {
+	color: #76CAF1;
+}
+
+/* Navy blue */
+.button,
+header .menus #top-menu li.navy a,
+.cd-primary-nav-trigger .cd-menu-icon,
+.cd-primary-nav-trigger .cd-menu-icon::before,
+.cd-primary-nav-trigger .cd-menu-icon:after,
+.row a:not(.button)::after,
+.accordion_head:hover,
+#main input[type="submit"],
+#main .gform_wrapper .gpnf-add-entry,
+body .gpnf-dialog .gform_wrapper input[type="submit"],
+.home .brands .brand.listeningear .brand_overlay .links li a.navy,
+.home .posts li .excerpt .more::after {
+	background-color: #1C5BA7;
+}
+
+.button,
+.button:hover,
+header .menus #top-menu li.navy a,
+.cd-primary-nav .menu li a,
+#main input[type="submit"],
+#main input[type="submit"]:hover,
+#main .gform_wrapper .gpnf-add-entry,
+#main .gform_wrapper .gpnf-add-entry:hover,
+body .gpnf-dialog .gform_wrapper input[type="submit"],
+body .gpnf-dialog .gform_wrapper input[type="submit"]:hover,
+.home .brands .brand.listeningear .brand_overlay .links li a.navy {
+	border-color: #1C5BA7;
+}
+
+h1,
+h2,
+.button:hover,
+.button:hover:visited,
+.button:hover:focus,
+header .menus #top-menu li.navy a:hover,
+.cd-primary-nav .menu li a:hover,
+.row a:not(.button),
+.row a:not(.button):hover,
+.home .brands .brand.listeningear .brand_overlay .links li a.navy:hover,
+.home .posts li .excerpt .more,
+#main input[type="submit"]:hover,
+#main .gform_wrapper .gpnf-add-entry:hover,
+#main .gform_wrapper .gpnf-add-entry:hover:focus,
+body .gpnf-dialog .gform_wrapper input[type="submit"]:hover,
+footer .bottom ul.social li a,
+footer .bottom ul.social li a:hover .fa-inverse,
+ul.tabs li,
+.job h4,
+.single-jobs .row h4 {
+	color: #1C5BA7;
+}
+
+.cd-primary-nav .menu li a:hover,
+.cd-primary-nav .menu li.current_page_item a,
+.cd-primary-nav .menu li.current-menu-ancestor a,
+.cd-primary-nav .menu li.current-menu-parent a,
+.cd-primary-nav .menu li.current-menu-ancestor ul.sub-menu li a:hover,
+.cd-primary-nav .menu li.current-menu-parent ul.sub-menu li a:hover,
+.cd-primary-nav .menu li.current-menu-ancestor ul.sub-menu li.current_page_item a,
+.cd-primary-nav .menu li.current-menu-parent ul.sub-menu li.current_page_item a {
+	color: #1C5BA7;
+}
+
+footer .top,
+.banner,
+.row.default_colour,
+ul.tabs li.current,
+ul.tabs li:hover,
+.tab-content {
+	background-color: rgba(110,198,217,0.2);
+}
+
+/* Royal blue */
+.home .brands .brand.blue .brand_overlay .links li a {
+	border-color: #3E6EB4;
+}
+
+.home .brands .brand.blue .brand_inner .brand_bottom,
+.home .brands .brand.blue .brand_overlay .links li a {
+	background-color: #3E6EB4;
+	color: #fff;
+}
+
+.home .brands .brand.blue .brand_overlay .links li a:hover {
+	color: #3E6EB4;
+}
+
+/* Dark green */
+.home .brands .brand.darkgreen .brand_overlay .links li a,
+.vida .button {
+	border-color: #3C6D2E;
+}
+
+.home .brands .brand.darkgreen .brand_inner .brand_bottom,
+.home .brands .brand.darkgreen .brand_overlay .links li a,
+.vida .row a:not(.button)::after,
+.vida .button {
+	background-color: #3C6D2E;
+	color: #fff;
+}
+
+.home .brands .brand.darkgreen .brand_overlay .links li a:hover,
+.vida h1,
+.vida h2,
+.vida h3,
+.vida h4,
+.vida .row a:not(.button),
+.vida .row a:not(.button):hover,
+.vida .row b,
+.vida .row strong,
+.vida .button:hover {
+	color: #3C6D2E;
+}
+
+.vida .row.brand_colour {
+	background-color: rgba(60,109,46,0.2);
+}
+
+/* Light green */
+.home .brands .brand.lightgreen .brand_overlay .links li a,
+.mindset .button {
+	border-color: #3AAA35;
+}
+
+.home .brands .brand.lightgreen .brand_inner .brand_bottom,
+.home .brands .brand.lightgreen .brand_overlay .links li a,
+.mindset .row a:not(.button)::after,
+.mindset .button {
+	background-color: #3AAA35;
+	color: #fff;
+}
+
+.home .brands .brand.lightgreen .brand_overlay .links li a:hover,
+.mindset h1,
+.mindset h2,
+.mindset h3,
+.mindset h4,
+.mindset .row a:not(.button),
+.mindset .row a:not(.button):hover,
+.mindset .row b,
+.mindset .row strong,
+.mindset .button:hover {
+	color: #3AAA35;
+}
+
+.mindset .row.brand_colour {
+	background-color: rgba(58,170,53,0.2);
+}
+
+/* Grey */
+.home .brands .brand.grey .brand_overlay .links li a,
+.titanium .button {
+	border-color: #4D5A5E;
+}
+
+.home .brands .brand.grey .brand_inner .brand_bottom,
+.home .brands .brand.grey .brand_overlay .links li a,
+.titanium .row a:not(.button)::after,
+.titanium .button {
+	background-color: #4D5A5E;
+	color: #fff;
+}
+
+.home .brands .brand.grey .brand_overlay .links li a:hover,
+.titanium h1,
+.titanium h2,
+.titanium h3,
+.titanium h4,
+.titanium .row a:not(.button),
+.titanium .row a:not(.button):hover,
+.titanium .row b,
+.titanium .row strong,
+.titanium .button:hover {
+	color: #4D5A5E;
+}
+
+.row.grey_colour {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.titanium .row.brand_colour {
+	background-color: rgba(77,90,94,0.2);
+}
+
+/* Pink */
+.home .brands .brand.pink .brand_overlay .links li a,
+.therapy .button {
+	border-color: #E6007E;
+}
+
+.home .brands .brand.pink .brand_inner .brand_bottom,
+.home .brands .brand.pink .brand_overlay .links li a,
+.therapy .row a:not(.button)::after,
+.therapy .button {
+	background-color: #E6007E;
+	color: #fff;
+}
+
+.home .brands .brand.pink .brand_overlay .links li a:hover,
+.therapy h1,
+.therapy h2,
+.therapy h3,
+.therapy h4,
+.therapy .row a:not(.button),
+.therapy .row a:not(.button):hover,
+.therapy .row b,
+.therapy .row strong,
+.therapy .button:hover {
+	color: #E6007E;
+}
+
+.therapy .row.brand_colour {
+	background-color: rgba(230,0,126,0.2);
+}
+
+/* Purple */
+.home .brands .brand.purple .brand_overlay .links li a,
+.diamond .button {
+	border-color: #4A245F;
+}
+
+.home .brands .brand.purple .brand_inner .brand_bottom,
+.home .brands .brand.purple .brand_overlay .links li a,
+.diamond .row a:not(.button)::after,
+.diamond .button {
+	background-color: #4A245F;
+	color: #fff;
+}
+
+.home .brands .brand.purple .brand_overlay .links li a:hover,
+.diamond h1,
+.diamond h2,
+.diamond h3,
+.diamond h4,
+.diamond .row a:not(.button),
+.diamond .row a:not(.button):hover,
+.diamond .row b,
+.diamond .row strong,
+.diamond .button:hover {
+	color: #4A245F;
+}
+
+.diamond .row.brand_colour {
+	background-color: rgba(74,36,95,0.2);
+}
+
+/* Red */
+.home .brands .brand.red .brand_overlay .links li a,
+.amparo .button {
+	border-color: #e7302a;
+}
+
+.home .brands .brand.red .brand_inner .brand_bottom,
+.home .brands .brand.red .brand_overlay .links li a,
+.amparo .row a:not(.button)::after,
+.amparo .button {
+	background-color: #e7302a;
+	color: #fff;
+}
+
+.home .brands .brand.red .brand_overlay .links li a:hover,
+.amparo h1,
+.amparo h2,
+.amparo h3,
+.amparo h4,
+.amparo .row a:not(.button),
+.amparo .row a:not(.button):hover,
+.amparo .row b,
+.amparo .row strong,
+.amparo .button:hover,
+.amparo ul.tabs li {
+	color: #e7302a;
+}
+
+.amparo .row.brand_colour,
+.amparo ul.tabs li.current,
+.amparo ul.tabs li:hover,
+.amparo .tab-content {
+	background-color: rgba(231,48,42,0.1);
+}
+
+/* Turquoise */
+header .menus #top-menu li.turquoise a,
+.home .brands .brand.listeningear .brand_overlay .links li a.turquoise {
+	background-color: #5ABCD1;
+	border-color: #5ABCD1;
+}
+
+header .menus #top-menu li.turquoise a:hover,
+.home .brands .brand.listeningear .brand_overlay .links li a.turquoise:hover {
+	color: #5ABCD1;
+}
+
+/* White */
+.cd-primary-nav,
+.home .brands .brand .brand_inner .brand_bottom,
+.home .brands .brand.listeningear .brand_overlay .links li a.white {
+	background-color: #fff;
+}
+
+.home .brands .brand.listeningear .brand_overlay .links li a.white {
+	border-color: #3E6EB4;
+	color: #3E6EB4;
+}
+
+.home .brands .brand.listeningear .brand_overlay .links li a.white:hover {
+	color: #3E6EB4;
+}
+
+.button,
+.button:visited,
+.button:focus,
+#main input[type="submit"],
+footer .bottom ul.social li a:hover,
+.accordion_head,
+#main .gform_wrapper .donate h4,
+#main .gform_wrapper .donate .donation_amount ul.gfield_radio li input[type="radio"]:checked + label,
+#main .gform_wrapper .donate .regular_donation ul.gfield_checkbox li input[type="checkbox"]:checked + label,
+#main .gform_wrapper .gpnf-add-entry,
+#main .gform_wrapper .gpnf-add-entry:focus,
+body .gpnf-dialog .gform_wrapper input[type="submit"] {
+	color: #fff;
+}
+
+/* Yellow */
+.home .brands .brand.yellow .brand_overlay .links li a,
+.shine .button {
+	border-color: #F8E71C;
+}
+
+.home .brands .brand.yellow .brand_inner .brand_bottom,
+.home .brands .brand.yellow .brand_overlay .links li a,
+.shine .row a:not(.button)::after,
+.shine .button {
+	background-color: #F8E71C;
+	color: #000;
+}
+
+.home .brands .brand.yellow .brand_overlay .links li a:hover,
+.shine h1,
+.shine h2,
+.shine h3,
+.shine h4,
+.shine .row a:not(.button),
+.shine .row a:not(.button):hover,
+.shine .row b,
+.shine .row strong,
+.shine .button:hover {
+	color: #F8E71C;
+}
+
+.shine .row.brand_colour {
+	background-color: rgba(248,231,28,0.2);
+}
+
+/* Misc */
+.share a.fb,
+.share a.fb:hover .fa-inverse {
+	color: #3b5998 !important;
+}
+
+.share a.tw,
+.share a.tw:hover .fa-inverse {
+	color: #55acee !important;
+}
+
+.share a:hover {
+	color: #fff !important;
+}
+
+#main .gform_wrapper .donate {
+	background-color: #eee;
+}
+
+#main .gform_wrapper .donate .donation_amount ul.gfield_radio li label,
+#main .gform_wrapper .donate .regular_donation ul.gfield_checkbox li label {
+	background-color: rgba(9,19,33,0.1);
+}
+
+#main .gform_wrapper .donate .donation_amount ul.gfield_radio li input[type="radio"]:checked + label,
+#main .gform_wrapper .donate .regular_donation ul.gfield_checkbox li input[type="checkbox"]:checked + label {
+	background-color: #ff6c00;
+}
