@@ -13,7 +13,7 @@ const locationMessageTemplate = document.querySelector('#location-message-templa
 const sidebarTemplate = document.querySelector('#sidebar-template').innerHTML
 
 // Options
-const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true})
+const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true })
 
 const autoscroll = () => {
     // New message element
@@ -42,7 +42,7 @@ socket.on('message', (message) => {
     const html = Mustache.render(messageTemplate, {
         username: message.username,
         message: message.text,
-        createdAt : moment(message.createdAt).format('h:mm a')
+        createdAt: moment(message.createdAt).format('h:mm a')
     })
     $messages.insertAdjacentHTML('beforeend', html)
     autoscroll()
@@ -51,19 +51,27 @@ socket.on('message', (message) => {
 socket.on('locationMessage', (message) => {
     const html = Mustache.render(locationMessageTemplate, {
         username: message.username,
-        url : message.url,
-        createdAt : moment(message.createdAt).format('h:mm a')
+        url: message.url,
+        createdAt: moment(message.createdAt).format('h:mm a')
     })
     $messages.insertAdjacentHTML('beforeend', html)
     autoscroll()
 })
 
-socket.on('roomData', ({room, users}) => {
+socket.on('roomData', ({ room, users }) => {
+    // users = users + "HRishikesh"
+    obj = {
+        id: 'AYcoPN09ngHxeYo_AADK', username: 'Hrishi', room: '101'
+    }
+    // users=users.push(obj)
+    console.log("The USERNAMES ARE:", users)
     const html = Mustache.render(sidebarTemplate, {
         room,
         users
     })
     document.querySelector('#sidebar').innerHTML = html
+    //"<div style='margin-left:22px'>Sunand <br>Riya</div>"
+
 })
 
 $messageForm.addEventListener('submit', (e) => {
@@ -97,7 +105,7 @@ $sendLocationButton.addEventListener('click', () => {
     })
 })
 
-socket.emit('join', { username, room}, (error) => {
+socket.emit('join', { username, room }, (error) => {
     if (error) {
         alert(error)
         location.href = '/'

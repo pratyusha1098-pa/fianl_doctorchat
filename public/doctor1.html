@@ -6,11 +6,6 @@
     <link rel="icon" href="/img/favicon.png">
     <link rel="stylesheet" href="/css/styles.css">
     <style>
-        .disableButton {
-            background-color: "white";
-            display: none
-        }
-
         .buttondesign {
             border-radius: 8px;
         }
@@ -39,10 +34,9 @@
                     <input name="message" placeholder="Message" required autocomplete="off">
                     <button class="buttondesign">Send</button>
                 </form>
-                <span class="disableButton"><button id="send-location" class="buttondesign"></button></span>
-                <br>
-
+                <button id="send-location" class=" disableButton buttondesign">Send Location</button>
             </div>
+            <!-- <button id="send-location">Send Location via client</button> -->
         </div>
     </div>
 
@@ -62,7 +56,7 @@
                     <span class="message__name">{{username}}</span>
                     <span class="message__meta">{{createdAt}}</span>
                 </p>
-                <p><a href="{{url}}" target="_blank">My Location</a></p>
+                <p><a href="{{url}}" target="_blank">My Location via client</a></p>
             </div>
         </script>
 
